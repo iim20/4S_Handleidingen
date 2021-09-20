@@ -35,11 +35,11 @@
             </ul>        
 
         </div>
-
+        <div class="footer_copyright">
+            @include('includes.footer')
+        </div>
     </div>
-    <div class="footer_copyright">
-        @include('includes.footer')
-    </div>
+   
 
 
 </div>
