@@ -1,9 +1,7 @@
 <footer>
     <div class="footer-container">
         <div class="footer_over_ons">
-            <Header>
-                Bedrijf
-            </Header>
+            <Header>Bedrijfs Naam</Header>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ex consequatur, velit debitis tenetur
                 ea nihil? Unde officiis aliquid accusamus vitae voluptate fuga fugit totam repellat, hic repellendus
                 corrupti esse.</p>

@@ -10061,3 +10061,55 @@ h3 {
   padding: 0 15px 0 15px;
   color: #3490dc;
 }
+
+/* Ticket 2B */
+
+footer{
+  background-color: #e9ecef;
+  padding: 2rem;
+  border-radius: 0.25rem;
+  color: #3490dc;  
+}
+
+.footer-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+footer header{
+  font-size: 21px;
+}
+
+.footer_over_ons{
+  text-align: justify;
+  width: 70%;
+}
+.footer_contact{
+  padding-left: 150px;
+}
+.footer_contact > p{
+  margin: 0 auto;
+}
+
+.footer_social_links i {
+  font-size: 32px;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  width: 100%;
+  color: #3490dc;
+}
+
+.footer_social_links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+.footer_copyright{
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
