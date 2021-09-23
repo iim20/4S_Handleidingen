@@ -20,5 +20,8 @@
 
 
         </div><!--/.navbar-collapse -->
+        <div class="button-inline">
+            <a href="">Handleiding</a>
+        </div>
     </div>
 </nav>

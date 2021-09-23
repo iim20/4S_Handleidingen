@@ -10113,3 +10113,15 @@ footer header{
   text-align: center;
   font-weight: bold;
 }
+
+/* Ticket 2C */
+
+.button-inline a{
+  margin-left: 20px;
+  padding: 5px 5px;
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 2px;
+  border-color: #3079ed;
+  background-color: #4d90fe;
+}
