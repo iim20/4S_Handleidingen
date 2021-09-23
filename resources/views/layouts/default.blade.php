@@ -27,22 +27,21 @@
                 @yield('content')
             @endif
 
-            <ul class="breadcrumb">
+            <!-- <ul class="breadcrumb">
                 <li>
 					<a href="/" title="{{ __('misc.home_alt') }}" alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a>
 				</li>
                 @yield('breadcrumb')
-            </ul>        
+            </ul>         -->
 
         </div>
-        <div class="footer_copyright">
-            @include('includes.footer')
-        </div>
+        
     </div>
-   
-
-
 </div>
+@include('includes.footer')   
+
+
+
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
