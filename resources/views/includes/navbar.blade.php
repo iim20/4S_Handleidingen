@@ -21,7 +21,9 @@
 
         </div><!--/.navbar-collapse -->
         <div class="button-inline">
-            <a href="">Handleiding</a>
+            <button>Handleiding</button>
+            <a class="navbar-contact" href="contact" title="{{ __('misc.home_alt') }}">Contact</a>
         </div>
+        
     </div>
 </nav>
