@@ -65,3 +65,6 @@ Route::get('/category/{category_id}/{category_slug}/', [ProductCategoryControlle
 
 // Generate sitemaps
 Route::get('/generateSitemap/', [SitemapController::class, 'generate']);
+
+// Contact page
+Route::get('contact', function () {return view('pages.contact');});
