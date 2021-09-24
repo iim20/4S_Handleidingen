@@ -1,0 +1,13 @@
+Ticket 2 extra - migration:
+
+- Database updaten gebruikt laravel op twee manieren:
+	1. php artisan migrate
+		- Maak de tabellen aan (migreert alleen nieuwe files). Na invoer van data in database/migrations bestand.
+		- Nadeel van deze command is het verwijderd alle data in database, daarom moet je eerste exporteren en opnieuw importeren.
+	
+	2. php artisan migrate:fresh --seed
+		- Gooi database leeg, en migreer alle files opnieuw.
+		- Je voert eerste data in database/seeders/DatabaseSeeders
+		- Op deze manier verlies je geen data, omdat data staat al in seeder.
+
+ 
