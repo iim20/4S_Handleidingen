@@ -35,10 +35,10 @@ use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\LocaleController;
 
 // Homepage
-Route::get('/', function () {
-    $brands = Brand::all()->sortBy('name');
-    return view('pages.homepage', compact('brands'));
-})->name('home');
+// Route::get('/', function () {
+//     $brands = Brand::all()->sortBy('name');
+//     return view('pages.homepage', compact('brands'));
+// })->name('home');
 
 Route::get('/manual/{language}/{brand_slug}/', [RedirectController::class, 'brand']);
 Route::get('/manual/{language}/{brand_slug}/brand.html', [RedirectController::class, 'brand']);
@@ -67,4 +67,13 @@ Route::get('/category/{category_id}/{category_slug}/', [ProductCategoryControlle
 Route::get('/generateSitemap/', [SitemapController::class, 'generate']);
 
 // Contact page
-Route::get('contact', function () {return view('pages.contact');});
+Route::get('contact', function (){
+    return view('pages.contact');
+});
+
+// Ticket 1Extra
+// Commenteer homepagina route om onderstaande code laten werken
+
+Route::get('/', function (){
+    return view('pages.test');
+});
