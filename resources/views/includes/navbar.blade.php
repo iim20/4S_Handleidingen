@@ -21,9 +21,10 @@
 
         </div><!--/.navbar-collapse -->
         <div class="button-inline">
-            <button>Handleiding</button>
-            <a class="navbar-contact" href="contact" title="{{ __('misc.home_alt') }}">Contact</a>
+            <button onclick="window.location.href='http://downloadyourmanual.com/?q=handleiding';">Handleiding</button>
         </div>
-        
+        <!-- Contactformulier link -->
+        <a class="navbar-contact" href="contact" title="{{ __('misc.home_alt') }}">Contact</a>
+
     </div>
 </nav>
